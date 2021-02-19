@@ -33,7 +33,7 @@ if (isset($_POST['register'])) { //check if form was submitted
         $userData =     array('first_name' => $firstName, 'last_name' => $lastName, 'email' => $userEmail, 'password' => $userPassword);
         $userId = $dbConnection->saveData($userData, 'users');
             //usertype
-    $conn =  mysqli_connect('localhost', 'root', '', 'olsem');
+    $conn =  mysqli_connect('sql10.freemysqlhosting.net', 'sql10393918', 'KlnmzegqUF', 'sql10393918');
     $usertype = mysqli_real_escape_string($conn, $_POST['usertype']);
 	$sql = "UPDATE users SET usertype='$usertype' WHERE email='$userEmail'";
     mysqli_query($conn, $sql);
