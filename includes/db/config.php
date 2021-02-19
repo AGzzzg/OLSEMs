@@ -2,10 +2,10 @@
 
 /* local environment */
 return array(
-    "dbHost" => "localhost",
-    "dbName" => "olsem",
-    "dbUserName" => "root",
-    "dbPassword" => "",
+    "dbHost" => "sql10.freemysqlhosting.net",
+    "dbName" => "sql10393918",
+    "dbUserName" => "sql10393918",
+    "dbPassword" => "KlnmzegqUF",
     "email" => "",
     
 );
