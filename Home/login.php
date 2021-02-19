@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){ //check if form was submitted
 		$_SESSION['user_id'] = $row['id'];
 		//usertype session
 		$email = $_SESSION['email'];
-		$conn =  mysqli_connect('localhost', 'root', '', 'olsem');
+		$conn =  mysqli_connect('sql10.freemysqlhosting.net', 'sql10393918', 'KlnmzegqUF', 'sql10393918');
 		$sql = "SELECT usertype FROM users WHERE email = '$email'";
 		$result = mysqli_query($conn, $sql);
 		$users = mysqli_fetch_assoc($result);
