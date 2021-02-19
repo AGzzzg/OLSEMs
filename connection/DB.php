@@ -1,8 +1,8 @@
 <?php
-   define('HOST','localhost');
-   define('PWD','');
-   define('USERNAME','root');
-   define('DB','olsem');
+   define('HOST','sql10.freemysqlhosting.net');
+   define('PWD','KlnmzegqUF');
+   define('USERNAME','sql10393918');
+   define('DB','sql10393918');
    
    $connection = mysqli_connect(HOST,USERNAME,PWD,DB);
    if($connection){
